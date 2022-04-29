@@ -1,0 +1,155 @@
+<div class="main-container" id="hanging-icons">
+    <div>
+        <img class="banner-img" src="./assets/banner.png" />
+    </div>
+    <div class="first-menu row g-4 py-4 row-cols-1 row-cols-md-3">
+      <div class="first-menu-item col d-flex align-items-center">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+          <img class="first-menu-img" src="./assets/laptop.png"/>
+        </div>
+        <div class="w-100">
+          <div class="d-flex first-menu-header">
+            <h2 class="first-menu-item-header-font">YOU PICK</h2>
+            <a class="first-menu-item-header-link" href="#">Play Now »</a>
+          </div>
+          <p  class="first-menu-item-font">It’s easy! Pick from over 40 official lottery games you wish to play. Then select your winning numbers.</p>
+        </div>
+      </div>
+      <div class="first-menu-item col d-flex align-items-center">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+            <img class="first-menu-img" src="./assets/store.png"/>
+        </div>
+        <div class="w-100">
+          <div class="d-flex first-menu-header">
+            <h2 class="first-menu-item-header-font">WE BUY</h2>
+            <a class="first-menu-item-header-link" href="#">More Details »</a>
+          </div>
+          <p  class="first-menu-item-font">Once you’ve picked your winning numbers we’ll purchase your ticket on your behalf.</p>
+        </div>
+      </div>
+      <div class="first-menu-item col d-flex align-items-center">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+            <img class="first-menu-img" src="./assets/money.png"/>
+        </div>
+        <div class="w-100">
+            <div class="d-flex first-menu-header">
+                <h2 class="first-menu-item-header-font">YOU WIN!!!</h2>
+                <a class="first-menu-item-header-link" href="#">Withdraw My Winnings »</a>
+            </div>
+          <p class="first-menu-item-font">When you win, we’ll automatically credit your account the full value of your winnings.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="second-menu-subtitle">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+    <div class="first-menu row d-flex py-4 row-cols-1 row-cols-md-3">
+        <div class="second-menu-item col d-block align-items-center">
+            <div class="d-flex align-items-center py-1 px-4">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+                    <img class="second-menu-img" src="./assets/ozlotto.png"/>
+                </div>
+                <div class="w-100">
+                    <p class="second-menu-header-font"><img class="flag-icon" src="./assets/usa.png"/> MEGA MILLIONS</p>
+                    <p class="second-menu-font">$94 000 000</p>
+                </div>
+            </div>
+            <div class="second-menu-bar d-flex align-items-center">
+                <div class="w-50 px-2">
+                    <button type="button" class="btn second-menu-btn">Play Now</button>
+                </div>
+                <div class="w-50 px-2">
+                    <p class="second-menu-bar-font" ><img src="./assets/alarm_white.svg"/> 1:22:10</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="second-menu-item col d-block align-items-center">
+            <div class="d-flex align-items-center py-1 px-4">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+                    <img class="second-menu-img" src="./assets/mega-millions-logo-e.png"/>
+                </div>
+                <div class="w-100">
+                    <p class="second-menu-header-font"><img class="flag-icon" src="./assets/usa.png"/> MEGA MILLIONS</p>
+                    <p class="second-menu-font">$94 000 000</p>
+                </div>
+            </div>
+            <div class="second-menu-bar d-flex align-items-center">
+                <div class="w-50 px-2">
+                    <button type="button" class="btn second-menu-btn">Play Now</button>
+                </div>
+                <div class="w-50 px-2">
+                    <p class="second-menu-bar-font" ><img src="./assets/alarm_white.svg"/> 1:22:10</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-menu-item col d-block align-items-center">
+            <div class="d-flex align-items-center py-1 px-4">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-1">
+                    <img class="second-menu-img" src="./assets/mega-millions-ball.png"/>
+                </div>
+                <div class="w-100">
+                    <p class="second-menu-header-font"><img class="flag-icon" src="./assets/usa.png"/> MEGA MILLIONS</p>
+                    <p class="second-menu-font">$94 000 000</p>
+                </div>
+            </div>
+            <div class="second-menu-bar d-flex align-items-center">
+                <div class="w-50 px-2">
+                    <button type="button" class="btn second-menu-btn">Play Now</button>
+                </div>
+                <div class="w-50 px-2">
+                    <p class="second-menu-bar-font" ><img src="./assets/alarm_white.svg"/> 1:22:10</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="third-menu-bar">PLAY UPCOMING LOTTERIES ONLINE</div>
+      <div class="first-menu row d-flex py-4 row-cols-2 row-cols-md-5">
+        <div *ngFor="let item of items; let i = index" class="third-menu-item col d-block align-items-center">        
+            <div class="third-menu-header d-flex align-items-center py-3 px-4">
+                <div >
+                    <img class="third-menu-img" src="./assets/mega-millions-logo-c.png"/>
+                </div>
+                <div class="third-menu-star">
+                    <img class="flag-icon" src="./assets/star.svg"/>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                 <div class="w-100">
+                    <p class="second-menu-header-font"><img class="flag-icon" src="./assets/usa.png"/> MEGA MILLIONS</p>
+                    <p class="third-menu-font">$122 000 000</p>
+                    <p class="third-menu-bar-font-clock" ><img src="./assets/alarm_blue.svg"/> 1:22:01</p>
+                    <div class="w-100 px-3 py-2">
+                        <button type="button" class="btn second-menu-btn">Play Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="d-none d-md-block" style="float: right;" >
+          <a href="#">More Details »</a>
+      </div>
+      <div class="d-md-none" style="float: right;" >
+        <a href="#">All lotteries »</a>
+      </div>
+
+      <div class="fourth-menu-container">
+        <div class="fourth-menu-col1">
+            <div class="fourth-menu-bar">BIGGEST LOTTERY WINNER</div>
+            <div>
+                <p >WON €100 000 000</p>
+            </div>
+            <div class="d-flex">
+                <img class="w-50" src="./assets/elders.png"/>
+                <div>
+                    <p>Shaun Vincent a Lottery Winner</p>
+                    <p>Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after his cheque presentation at the Cedar Court Hotel, Wakefield.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fourth-menu-col2">
+            <div class="fourth-menu-bar">OUR LATEST WINNERS</div>
+        </div>
+      </div>
+  </div>

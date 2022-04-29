@@ -1,0 +1,113 @@
+
+.logoCell{
+    text-align: center;
+    margin: 0;
+}
+.logoImg{
+    max-height: 100%;
+    width: 182px;
+}
+.flag-icon{
+    width: 20px;
+    margin-right: 10px;
+    line-height: 10px;
+}
+.chevron-icon{
+    width: 10px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+.page-icon{
+    line-height: 10px;
+    width: 16px;
+}
+.menu-icon{
+    line-height: 10px;
+    width: 24px;
+}
+.navbar{
+    display: block;
+}
+.font-properties{
+    font-size: 14px;
+    margin: 0;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.interactive-font{
+    color: #0061A3;
+    text-decoration: none;
+}
+.final-cell{
+    justify-content: end;
+}
+.language-toggle{
+    line-height: 10px;
+    font-size: 14px;
+    background: transparent;
+    color: black;
+    border: 0;
+}
+.language-item{
+    font-size: 14px;
+}
+.ext-link{
+    margin-left: 12px;
+    padding-bottom: 4px;
+    background: transparent;
+    border: 0;
+}
+
+.main-toolbar{
+    background: #F30000;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.toolbar-item{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    white-space: nowrap;
+}
+
+.toolbar-account-item{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+    white-space: nowrap;
+}
+.account-bar{
+    background: #0061A3;
+    border-radius: 8px;
+    height: 34px;
+    line-height: 34px;
+}
+.sub-toolbar{
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .logoCell{
+        width: 23%;
+        min-width: 280px;
+        margin-right: 30px;
+    }
+    .logoImg{
+        max-height: 100%;
+        width: 279px;
+    }
+    .main-toolbar{
+        height: 34px;
+    }
+    .toolbar-item{
+        border-right: solid 1px;
+    }
+}
